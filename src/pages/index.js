@@ -4,11 +4,11 @@ import Iframe from "../components/iframe.js";
 
 //------------------------------------------------Переменные-----------------------------------------------------------//
 
-const widgetButton = document.querySelector(".profile__iframe");
+const banner = document.querySelector(".banner");
 
 const iframe = new Iframe();
 
-widgetButton.addEventListener("click", () => {
+banner.addEventListener("click", () => {
   iframe.iframeOpen();
 });
 const readMessage = (event) => {
