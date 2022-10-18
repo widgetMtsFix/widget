@@ -6,7 +6,7 @@ export default class Iframe {
   _loadIframe() {
     const message = {
       token:
-        "eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IklTQlJBQ0hVIiwidXJtZDpPcmdhbml6YXRpb25JZCI6IjEzMTIzMTIiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9lbWFpbGFkZHJlc3MiOiJpc2JyYWNodUBtdHMucnUiLCJ1cm1kOkZJTyI6IldpZGdldFRlc3QiLCJleHAiOjI1MzQwMjI5MDAwMCwiaXNzIjoiRGVhbGVyUG9ydGFsV2lkZ2V0In0.q9RxGLO-TchG6t2k1U7Lg0YMlhEmI28JPp92wxpJd7izH03zvWTc-YuC06XmEUCONxTnpiE3ekz61ky6CbIgEw",
+        "eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IkFJS0hBTUlEVUwiLCJ1cm1kOk9yZ2FuaXphdGlvbklkIjoiMDEwMTAxODgiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9lbWFpbGFkZHJlc3MiOiJub3JlcGx5QG10cy5ydSIsInVybWQ6RklPIjoi0JLQuNC00LbQtdGCINCi0JXQodCiIiwiZXhwIjoxNjk3NjEzMjA0LCJpc3MiOiJEZWFsZXJQb3J0YWxXaWRnZXQifQ.D8CEMkiKbZ2K4TFguCihPENtirVTqM63BCcF5MzvyVdn79YJHJpI93VsiRectYREmIYIQ-Fw5q7bX_paGbjERQ",
       actions: [{ type: "close_widget", value: false }],
       address: "Энгельс",
     };
