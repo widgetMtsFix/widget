@@ -5,6 +5,7 @@ const banner = document.querySelector(".banner");
 const iframe = document.querySelector(".iframe");
 
 banner.addEventListener("click", () => {
+  console.log(1, 2, 3, 5, 6, 7, 8, 9, 10);
   iframe.classList.add("iframe_open");
   iframe.src = "https://urmdf-canary.ssl.mts.ru/widget/";
   setTimeout(() => {
