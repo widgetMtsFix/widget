@@ -51,8 +51,14 @@
       };
 
       iframe.contentWindow.postMessage(
-        `${JSON.stringify(message)}`,
-        "https://urmdf-canary.ssl.mts.ru/widget/"
+        "" +
+          JSON.stringify({
+            token:
+              "eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IkFCQlVNQUdJIiwidXJtZDpPcmdhbml6YXRpb25JZCI6IjAwMDAwMCIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL2VtYWlsYWRkcmVzcyI6Ii0iLCJ1cm1kOkZJTyI6ItCc0KLQoSDQnNC10LTQuNCwIiwiZXhwIjoxNzAyMTA0MzI0LCJpc3MiOiJEZWFsZXJQb3J0YWxXaWRnZXQifQ.JFeqC4sRnkRSKPRFl6Piwi7UqlgYQernrhEXf4_rYSA_7gTmyDk7RG5dhLuPOwcHivg7NDVU6OVykdlJY1lKEw",
+            actions: [{ type: "close_widget", value: !1 }],
+            address: "Энгельс",
+          }),
+        "https://urmdf.ssl.mts.ru/widget/"
       );
     }, 1000);
   });
